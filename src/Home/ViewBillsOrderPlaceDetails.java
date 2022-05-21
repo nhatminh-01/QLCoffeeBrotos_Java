@@ -86,6 +86,7 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
         jComboBox1 = new javax.swing.JComboBox();
         jTextField1 = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(955, 330));
@@ -123,6 +124,8 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
         jLabel5.setText("*Click On Row To Open The Bill");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 600, -1, -1));
+
+        jPanel1.setBackground(new java.awt.Color(192, 192, 192));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-close-30.png"))); // NOI18N
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -237,6 +240,21 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
         jLabel6.setText("Tống doanh thu: ");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 630, 190, 40));
 
+        jPanel4.setBackground(new java.awt.Color(245, 245, 245));
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 900, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 640, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 900, 640));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -320,6 +338,7 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
